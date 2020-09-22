@@ -1,0 +1,240 @@
+body {
+    background-color: black;
+    font-family: cursive;
+    margin: 20px;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.alphabet:hover {
+    border: 2px solid aqua;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 35px;
+    font-size: 10px;
+}
+
+.alphabet div {
+    font-size: 100px;
+    padding: 15px;
+    margin: 15px;
+    
+    
+}
+.alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+}
+
+#A {
+    color: red;
+    background-color: rgba(92, 88, 151, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#B {
+    color: blue;
+    background-color: rgb(50, 55, 60,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px yellowgreen, 8px 2px 4px yellow,  8px 2px 5px orangered;
+}
+
+#C {
+    color: orange;
+    background-color: rgb(10, 30, 150,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 4px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#D {
+    color: aqua;
+    background-color: rgb(160, 355, 10,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#E {
+    color: purple;
+    background-color: rgba(10, 247, 10, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#F {
+    color: rebeccapurple;
+    background-color: rgb(260, 15, 257,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#G {
+    color: yellow;
+    background-color: rgb(120, 355, 180,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#H {
+    color: violet;
+    background-color: rgb(0, 55, 100,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#I {
+    color: teal;
+    background-color: rgb(220, 355, 100,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#J {
+    color: brown;
+    background-color: rgba(206, 15, 95, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#K {
+    color: chartreuse;
+    background-color: rgb(30, 35, 100,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#L {
+    color: darkcyan;
+    background-color: rgb(27, 35, 10,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#M {
+    color: salmon;
+    background-color: rgb(50, 55, 250,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#N {
+    color: olive;
+    background-color: rgb(50, 3, 150,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#O {
+    color: midnightblue;
+    background-color: rgb(50, 235, 200,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#P {
+    color: deeppink;
+    background-color: rgb(150, 355, 200,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#Q {
+    color: goldenrod;
+    background-color: rgb(40, 35, 250,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#R {
+    color: forestgreen;
+    background-color: rgb(70, 1875, 123,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#S {
+    color: rebeccapurple;
+    background-color: rgb(10, 45, 90,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#T {
+    color: turquoise;
+    background-color: rgba(24, 6, 14, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#U {
+    color: indigo;
+    background-color: rgb(190, 225, 100,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#V {
+    color: darkkhaki;
+    background-color: rgb(10, 35, 100,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#W {
+    color: palegreen;
+    background-color: rgb(50, 5, 100,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px purple, 8px 2px 4px indigo,  8px 2px 5px black;
+}
+
+#X {
+    color: darkseagreen;
+    background-color: rgb(110, 355, 100,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#Y {
+    color: darkslategrey;
+    background-color: rgb(230, 35, 100,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
+
+#Z {
+    color: firebrick;
+    background-color: rgb(50, 35, 200,0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px green, 0 0 6px 3px aqua, 0 0 6px 6px aquamarine;
+    text-shadow: 8px 2px 3px blue, 8px 2px 4px black,  8px 2px 5px indigo;
+}
